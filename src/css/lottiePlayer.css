@@ -1,0 +1,16 @@
+.lottie-player-container {
+  position: relative;
+  right: 50px;
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .lottie-player-container {
+    right: 0px;
+  }
+}
+
+@media screen and (max-device-width: 1023px) and (orientation: landscape) {
+  .lottie-player-container {
+    right: 0px;
+    width: 500px;
+  }
+}

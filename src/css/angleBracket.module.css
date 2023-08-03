@@ -1,0 +1,12 @@
+.angleBracket {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bracket {
+  color: var(--font-color-red);
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+}

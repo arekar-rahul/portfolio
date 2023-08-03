@@ -1,0 +1,94 @@
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+.Navigation {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  height: 100%;
+}
+
+.navButton {
+  width: 40px;
+  padding: 10px;
+  height: 40px;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  border: 0px solid rgba(255, 255, 255, 0.075);
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px !important;
+  overflow: hidden !important;
+}
+
+button svg {
+  pointer-events: none;
+}
+
+.hover {
+  background-color: #d76627 !important;
+  color: black !important;
+  transition: all;
+}
+
+.selected {
+  background-color: #d76627 !important;
+  color: black !important;
+  transition: all;
+}
+
+.selected::before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  z-index: -2;
+  background-image: linear-gradient(
+    var(--rotate),
+    #4158d0,
+    #c850c0 43%,
+    #ffcc70
+  );
+  animation: spin 2.5s linear infinite;
+}
+
+.selected::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  background-color: rgb(68 68 68);
+  border-radius: 10px 0 0 10px;
+  margin: 2px;
+  inset: 0;
+  border-radius: 20px;
+}
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+
+  100% {
+    --rotate: 360deg;
+  }
+}
+
+@media screen and (max-device-width: 1023px) and (orientation: landscape) {
+  .navButton {
+    width: 30px;
+    height: 30px;
+  }
+
+  .navButton svg {
+    width: 17px;
+  }
+}

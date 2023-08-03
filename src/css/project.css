@@ -1,0 +1,44 @@
+.project-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  /* pointer-events: none; */
+}
+
+.project-content-wrapper {
+  width: 100%;
+  height: 87%;
+  overflow: auto;
+}
+
+.project-content {
+  padding: 10px;
+}
+
+.technologyUsed {
+  display: flex;
+  font-size: 12px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.technologyUsed div {
+  margin-right: 7px;
+}
+
+.project-scope {
+  font-size: 14px;
+}
+
+@media screen and (max-device-width: 1023px) and (orientation: landscape) {
+  .project-content-wrapper {
+    height: 75%;
+  }
+  .technologyUsed {
+    font-size: 8px;
+  }
+  .project-scope {
+    font-size: 10px;
+  }
+}

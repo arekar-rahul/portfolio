@@ -1,0 +1,129 @@
+{
+  "name": "Rahul",
+  "prof": "SoftWare Engineer",
+  "age": 24,
+  "description": "IT engineering graduate, software developer with 2 years of experience at Mitr. Skilled in JavaScript, React, and other programming languages. Quick learner, dedicated team player, and self-motivated. Passionate about software development and eager to explore new challenges.",
+  "content": {
+    "skills": [
+      {
+        "title": "Programming Languages",
+        "text": "JavaScript, Python, HTML, CSS, Java, Python"
+      },
+      {
+        "title": "Web Development",
+        "text": "ReactJS, Redux, Typescript, Bootstrap, responsive design, cross-browser compatibility"
+      },
+      {
+        "title": "Version Control",
+        "text": "Git, GitHub"
+      },
+      {
+        "title": "Testing and Debugging",
+        "text": "Unit testing, debugging techniques"
+      },
+      {
+        "title": "Problem-Solving",
+        "text": "Analytical thinking, troubleshooting skills"
+      },
+      {
+        "title": "Agile/Scrum Methodologies",
+        "text": "Familiarity with Agile development, Scrum framework"
+      },
+      {
+        "title": "Continuous Integration and Deployment (CI/CD)",
+        "text": "Jenkins"
+      },
+      {
+        "title": "Soft Skills",
+        "text": "Effective communication, teamwork, adaptability, strong work ethic"
+      }
+    ],
+    "experiences": [
+      {
+        "company": "MITR Learning and Media, Mumbai",
+        "position": "Front end developer",
+        "startDate": "May 2023",
+        "duration": "Present (4 weeks)",
+        "description": "Currently working as a front-end developer, utilizing TypeScript to develop efficient and scalable web applications. Successfully implemented automation techniques to streamline development processes, enhancing productivity and reducing manual efforts. Utilized GitHub for version control and collaborative code management, ensuring seamless teamwork and efficient code integration. Collaborated with cross-functional teams to deliver high-quality front-end solutions, meeting project requirements and exceeding client expectations."
+      },
+      {
+        "company": "MITR Learning and Media, Mumbai",
+        "position": "Graduate Engineer Trainee (GET)",
+        "startDate": "June 2021",
+        "endDate": "Present",
+        "description": "Developed JavaScript, TypeScript, CSS, and HTML solutions for multiple projects, collaborating effectively with cross-functional teams to deliver high-quality web applications. Translated wireframes and mockups into visually appealing, responsive user interfaces using React, HTML, and CSS, enhancing user experiences and engagement. Leveraged TypeScript to improve code quality, maintainability, and scalability, resulting in cleaner and more robust front-end applications. Actively participated in the full software development lifecycle, from requirements gathering and design to development, testing, and deployment, ensuring timely project delivery. Conducted rigorous testing and debugging, employing best practices to identify and resolve issues, ensuring the production of reliable and bug-free applications. Completed highly regarded courses on React, TypeScript, and JavaScript on Udemy, expanding knowledge and skills in these areas and staying up-to-date with the latest industry practices. Actively engaged in code reviews, providing constructive feedback and suggestions to enhance code quality, maintain consistency, and adhere to coding standards."
+      }
+    ],
+    "projects": [
+      {
+        "projectName": "i-Ready Platform",
+        "projectScope": "Student e-learning platform.",
+        "technologiesUsed": [
+          "Canvas",
+          "React",
+          "TypeScript"
+        ]
+      },
+      {
+        "projectName": "Alef E-learning",
+        "projectScope": "E-learning platform for military students focusing on science, mathematics, and English subjects.",
+        "technologiesUsed": [
+          "React JS",
+          "Redux"
+        ]
+      },
+      {
+        "projectName": "Carolina Distance Learning",
+        "projectScope": "Provider of at-home lab programs for college-level distance education.",
+        "technologiesUsed": [
+          "React",
+          "Redux"
+        ]
+      },
+      {
+        "projectName": "HSBC Internal Audit - Question Mini-Game Content",
+        "projectScope": "Simulation-based game to educate individuals about internal auditing processes.",
+        "technologiesUsed": [
+          "React",
+          "TypeScript",
+          "easy-peasy"
+        ]
+      },
+      {
+        "projectName": "Klett Primary Math",
+        "company": "Klett",
+        "projectScope": "Mathematics project for school students from grades 1 to 9.",
+        "technologiesUsed": [
+          "JavaScript",
+          "plain Canvas"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelors in Information and Technology",
+        "college": "Pillai College of Engineering, Mumbai University",
+        "board": "Mumbai University",
+        "location": "India",
+        "year": "2021",
+        "score": "8.3 CGPA"
+      },
+      {
+        "degree": "HSC",
+        "college": "MGM College",
+        "board": "Maharashtra State Board",
+        "location": "India",
+        "year": "2017",
+        "score": "73%"
+      },
+      {
+        "degree": "SSC",
+        "college": "--",
+        "board": "Maharashtra State Board",
+        "location": "India",
+        "year": "2015",
+        "score": "80.40%"
+      }
+    ]
+  }
+}

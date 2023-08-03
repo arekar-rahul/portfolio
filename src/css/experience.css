@@ -1,0 +1,32 @@
+.experience-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.experience-content-wrapper {
+  height: 93%;
+  width: 100%;
+  overflow: auto;
+}
+
+.experience-content-container {
+  margin: 20px;
+}
+
+.experience-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 5px;
+}
+
+.experience-content dt {
+  min-width: 100px;
+}
+@media screen and (max-device-width: 1023px) and (orientation: landscape) {
+  .experience-content-wrapper {
+    height: 85%;
+  }
+}
